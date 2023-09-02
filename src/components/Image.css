@@ -1,0 +1,10 @@
+.image {
+    width: 35%;
+  /* margin: 0 0 auto; */
+  height: 80%;
+  background-image: url('https://i.pinimg.com/564x/32/64/ea/3264ea57168f165845ba56ef67e03c7b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px 0 0 20px;
+}
