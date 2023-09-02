@@ -6,41 +6,41 @@ const Information = ({ result }) => {
     <div class=" table-data relative overflow-x-hidden ">
       <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <tbody>
-          <tr class="border-b border-gray-200 dark:border-gray-700">
+          <tr class="border-b border-gray-200 ">
             <th
               scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+              class="px-6 py-4 font-large -my-0.5 text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
             >
               Location
             </th>
-            <td class="px-6 py-4">{result.name}</td>
+            <td class="px-6 py-4 text-gray-500">{result.name}</td>
           </tr>
-          <tr class="border-b border-gray-200 dark:border-gray-700">
+          <tr class="border-b border-gray-200 ">
             <th
               scope="row"
               class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
             >
               Temperature
             </th>
-            <td class="px-6 py-4">{result.main.temp}</td>
+            <td class="px-6 py-4 text-gray-500">{result.main.temp}</td>
           </tr>
-          <tr class="border-b border-gray-200 dark:border-gray-700">
+          <tr class="border-b border-gray-200 ">
             <th
               scope="row"
               class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
             >
               Humidity
             </th>
-            <td class="px-6 py-4">{result.main.humidity}</td>
+            <td class="px-6 py-4 text-gray-500">{result.main.humidity}</td>
           </tr>
-          <tr class="border-b border-gray-200 dark:border-gray-700">
+          <tr class="border-b border-gray-200 ">
             <th
               scope="row"
               class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
             >
               Sunrise
             </th>
-            <td class="px-6 py-4">
+            <td class="px-6 py-4 text-gray-500">
               {new Date(result.sys.sunrise * 1000).toLocaleTimeString()}
             </td>
           </tr>
@@ -51,7 +51,7 @@ const Information = ({ result }) => {
             >
               Sunset
             </th>
-            <td class="px-6 py-4">
+            <td class="px-6 py-4 text-gray-500">
               {new Date(result.sys.sunset * 1000).toLocaleTimeString()}
             </td>
           </tr>
